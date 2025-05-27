@@ -1,10 +1,10 @@
 const mysql=require('mysql2');
 
 const connection=mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'root',
-    database:'schooldb'
+    host:'sql12.freesqldatabase.com',
+    user:'sql12781456',
+    password:'UsXRgwjwTh',
+    database:'sql12781456'
 });
 
 connection.connect(err=>{
