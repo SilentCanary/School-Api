@@ -9,3 +9,7 @@ app.use('/',school_routes);
 app.listen(port,()=>{
     console.log(`Server running on port ${port}`);
 });
+app.get('/', (req, res) => {
+  res.send('School API is running. Use /addSchool or /listSchools.');
+});
+
